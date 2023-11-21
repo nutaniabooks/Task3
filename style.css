@@ -1,6 +1,35 @@
 *{
-    background-color: bisque;
+    background-color: beige;
+}
+
+body{
+    padding: 3px;
     text-align: center;
-    font-style: sans serf;
-    padding-top: 10px;
+  }
+  
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+    font-family:cursive;
+}
+#clock {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 20vh;
+      margin: 0;
+      font-family:cursive;
+      font-size: 40px;
+}
+
+#fullDate {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 5vh;
+      margin: 0;
+      font-family:cursive;
+      font-size: 40px;
 }
